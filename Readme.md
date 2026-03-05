@@ -43,7 +43,6 @@ JavaScript
 Para agregar interactividad al formulario y gestionar los datos dinámicamente.
 
 Instrucciones de uso
-
 Abrir el archivo index.html en cualquier navegador web.
 Completar el formulario con los datos de la sesión de estudio:
 Materia: nombre de la materia.
