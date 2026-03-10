@@ -1,3 +1,6 @@
+*{
+box-sizing:border-box;
+}
 :root{
 
 --verde:#4CAF50;

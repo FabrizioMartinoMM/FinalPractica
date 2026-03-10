@@ -103,7 +103,7 @@ sesionesImportantes.textContent=importantes;
 
 }
 
-filtroMateria.addEventListener("keyup",function(){
+filtroMateria.addEventListener("input",function(){
 
 let texto=filtroMateria.value.toLowerCase();
 
