@@ -3,7 +3,7 @@ const tabla = document.getElementById("tablaEstudio");
 
 const totalSesiones = document.getElementById("totalSesiones");
 const totalHoras = document.getElementById("totalHoras");
-const sesionesImportantes = document.getElementById("sesionesUrgentes");
+const sesionesImportantes = document.getElementById("sesionesImportantes");
 
 const filtroMateria = document.getElementById("filtroMateria");
 
@@ -21,6 +21,12 @@ e.preventDefault();
 
 let materia = limpiarTexto(document.getElementById("materia").value);
 let tema = limpiarTexto(document.getElementById("tema").value);
+
+if(!/[a-zA-ZáéíóúÁÉÍÓÚñÑ]/.test(materia)){
+alert("La materia debe contener al menos una letra");
+return;
+}
+
 let horas = document.getElementById("horas").value;
 let dificultad = document.getElementById("dificultad").value;
 

@@ -25,6 +25,31 @@ font-family: Georgia, serif;
 
 }
 
+.aula-virtual{
+
+text-align:center;
+margin-bottom:20px;
+
+}
+
+.aula-virtual a{
+
+text-decoration:none;
+background:#377fb9;
+color:white;
+padding:8px 16px;
+border-radius:6px;
+font-weight:bold;
+display:inline-block;
+
+}
+
+.aula-virtual a:hover{
+
+background:#1c4e81;
+
+}
+
 img{
 
 max-width:100%;
